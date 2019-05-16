@@ -82,7 +82,7 @@ function updateToolTip(chosenXAxis, circlesGroup) {
     return circlesGroup;
 }
 
-d3.csv("data.csv", function(err, healthData) {
+d3.csv("assets/data/data.csv", function(err, healthData) {
     if (err) throw err;
 
     healthData.forEach(function(data) {

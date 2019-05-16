@@ -27,7 +27,8 @@
 .stateText {
   font-family: sans-serif;
   fill: #fff;
-  text-anchor: middle;
+  text-anchor: start;
+  font-size: 12px;
 }
 
 .stateCircle {
